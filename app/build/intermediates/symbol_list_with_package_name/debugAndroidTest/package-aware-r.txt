@@ -1,0 +1,3 @@
+com.ecotracker.app.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

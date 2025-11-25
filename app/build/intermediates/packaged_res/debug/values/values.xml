@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_light">#F5F5F5</color>
+    <color name="black">#FF000000</color>
+    <color name="blue_accent">#2196F3</color>
+    <color name="blue_accent_dark">#1976D2</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="category_energy">#FF9800</color>
+    <color name="category_recycling">#4CAF50</color>
+    <color name="category_transport">#9C27B0</color>
+    <color name="category_waste">#795548</color>
+    <color name="category_water">#2196F3</color>
+    <color name="error">#F44336</color>
+    <color name="green_light">#81C784</color>
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_primary_dark">#388E3C</color>
+    <color name="success">#4CAF50</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="warning">#FF9800</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="active_habits">Hábitos Ativos</string>
+    <string name="add_habit">Adicionar Hábito</string>
+    <string name="app_name">EcoTracker</string>
+    <string name="category_energy">Economia de Energia</string>
+    <string name="category_recycling">Reciclagem</string>
+    <string name="category_transport">Transporte Sustentável</string>
+    <string name="category_waste">Redução de Resíduos</string>
+    <string name="category_water">Consumo de Água</string>
+    <string name="cd_add_habit">Botão para adicionar novo hábito</string>
+    <string name="cd_back">Botão voltar</string>
+    <string name="cd_complete_habit">Botão para marcar hábito como concluído</string>
+    <string name="cd_delete_habit">Botão para excluir hábito</string>
+    <string name="cd_habit_item">Item de hábito sustentável</string>
+    <string name="cd_refresh">Botão para atualizar conteúdo</string>
+    <string name="cd_tip_item">Item de dica sustentável</string>
+    <string name="completed_habits">Hábitos Concluídos</string>
+    <string name="daily_tip">Dica do Dia</string>
+    <string name="delete_habit">Excluir Hábito</string>
+    <string name="error_generic">Ocorreu um erro. Tente novamente.</string>
+    <string name="habit_current">Valor Atual</string>
+    <string name="habit_description">Descrição</string>
+    <string name="habit_target">Meta</string>
+    <string name="habit_title">Título do Hábito</string>
+    <string name="habit_unit">Unidade</string>
+    <string name="habits_title">Meus Hábitos Sustentáveis</string>
+    <string name="loading">Carregando...</string>
+    <string name="mark_completed">Marcar como Concluído</string>
+    <string name="nav_habits">Hábitos</string>
+    <string name="nav_progress">Progresso</string>
+    <string name="nav_tips">Dicas</string>
+    <string name="no_habits">Nenhum hábito cadastrado ainda.</string>
+    <string name="no_tips">Nenhuma dica disponível.</string>
+    <string name="progress_title">Meu Progresso</string>
+    <string name="refresh_tips">Atualizar Dicas</string>
+    <string name="save_habit">Salvar Hábito</string>
+    <string name="tips_title">Dicas Sustentáveis</string>
+    <string name="unit_days">dias</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_km">km</string>
+    <string name="unit_kwh">kWh</string>
+    <string name="unit_liters">litros</string>
+    <style name="Base.Theme.EcoTracker" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorPrimaryVariant">@color/green_primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/blue_accent</item>
+        <item name="colorSecondaryVariant">@color/blue_accent_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+    </style>
+    <style name="CardStyle">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:background">@color/card_background</item>
+    </style>
+    <style name="PrimaryButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/green_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="SecondaryButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/green_primary</item>
+        <item name="android:textColor">@color/green_primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    <style name="Theme.EcoTracker" parent="Base.Theme.EcoTracker"/>
+</resources>

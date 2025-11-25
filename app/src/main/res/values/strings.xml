@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoTracker</string>
+    
+    <!-- Navigation -->
+    <string name="nav_habits">Hábitos</string>
+    <string name="nav_tips">Dicas</string>
+    <string name="nav_progress">Progresso</string>
+    
+    <!-- Habits -->
+    <string name="habits_title">Meus Hábitos Sustentáveis</string>
+    <string name="add_habit">Adicionar Hábito</string>
+    <string name="habit_title">Título do Hábito</string>
+    <string name="habit_description">Descrição</string>
+    <string name="habit_target">Meta</string>
+    <string name="habit_current">Valor Atual</string>
+    <string name="habit_unit">Unidade</string>
+    <string name="save_habit">Salvar Hábito</string>
+    <string name="delete_habit">Excluir Hábito</string>
+    <string name="mark_completed">Marcar como Concluído</string>
+    
+    <!-- Categories -->
+    <string name="category_water">Consumo de Água</string>
+    <string name="category_energy">Economia de Energia</string>
+    <string name="category_waste">Redução de Resíduos</string>
+    <string name="category_transport">Transporte Sustentável</string>
+    <string name="category_recycling">Reciclagem</string>
+    
+    <!-- Tips -->
+    <string name="tips_title">Dicas Sustentáveis</string>
+    <string name="daily_tip">Dica do Dia</string>
+    <string name="refresh_tips">Atualizar Dicas</string>
+    
+    <!-- Progress -->
+    <string name="progress_title">Meu Progresso</string>
+    <string name="completed_habits">Hábitos Concluídos</string>
+    <string name="active_habits">Hábitos Ativos</string>
+    
+    <!-- Accessibility -->
+    <string name="cd_habit_item">Item de hábito sustentável</string>
+    <string name="cd_add_habit">Botão para adicionar novo hábito</string>
+    <string name="cd_delete_habit">Botão para excluir hábito</string>
+    <string name="cd_complete_habit">Botão para marcar hábito como concluído</string>
+    <string name="cd_tip_item">Item de dica sustentável</string>
+    <string name="cd_refresh">Botão para atualizar conteúdo</string>
+    <string name="cd_back">Botão voltar</string>
+    
+    <!-- Messages -->
+    <string name="loading">Carregando...</string>
+    <string name="error_generic">Ocorreu um erro. Tente novamente.</string>
+    <string name="no_habits">Nenhum hábito cadastrado ainda.</string>
+    <string name="no_tips">Nenhuma dica disponível.</string>
+    
+    <!-- Units -->
+    <string name="unit_liters">litros</string>
+    <string name="unit_kwh">kWh</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_km">km</string>
+    <string name="unit_days">dias</string>
+</resources>

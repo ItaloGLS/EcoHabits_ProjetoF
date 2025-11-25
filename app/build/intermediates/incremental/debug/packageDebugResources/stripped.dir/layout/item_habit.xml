@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:contentDescription="@string/cd_habit_item">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <View
+            android:id="@+id/category_indicator"
+            android:layout_width="4dp"
+            android:layout_height="0dp"
+            android:background="@color/green_primary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_habit_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            app:layout_constraintEnd_toStartOf="@+id/btn_complete"
+            app:layout_constraintStart_toEndOf="@+id/category_indicator"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Economizar água" />
+
+        <TextView
+            android:id="@+id/tv_habit_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/btn_complete"
+            app:layout_constraintStart_toStartOf="@+id/tv_habit_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_habit_title"
+            tools:text="Reduzir o consumo diário de água" />
+
+        <ProgressBar
+            android:id="@+id/progress_habit"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:progressTint="@color/green_primary"
+            app:layout_constraintEnd_toStartOf="@+id/btn_complete"
+            app:layout_constraintStart_toStartOf="@+id/tv_habit_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_habit_description"
+            tools:progress="65" />
+
+        <TextView
+            android:id="@+id/tv_progress_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/btn_complete"
+            app:layout_constraintStart_toStartOf="@+id/tv_habit_title"
+            app:layout_constraintTop_toBottomOf="@+id/progress_habit"
+            tools:text="65/100 litros" />
+
+        <ImageButton
+            android:id="@+id/btn_complete"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_complete_habit"
+            android:src="@android:drawable/ic_menu_agenda"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/green_primary" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

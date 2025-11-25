@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Primary Colors -->
+    <color name="green_primary">#4CAF50</color>
+    <color name="green_primary_dark">#388E3C</color>
+    <color name="green_light">#81C784</color>
+    
+    <!-- Secondary Colors -->
+    <color name="blue_accent">#2196F3</color>
+    <color name="blue_accent_dark">#1976D2</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    
+    <!-- Category Colors -->
+    <color name="category_water">#2196F3</color>
+    <color name="category_energy">#FF9800</color>
+    <color name="category_waste">#795548</color>
+    <color name="category_transport">#9C27B0</color>
+    <color name="category_recycling">#4CAF50</color>
+</resources>

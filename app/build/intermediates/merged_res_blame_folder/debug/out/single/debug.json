@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/drawable_bg_chip_outline.xml.flat",
+        "source": "com.ecotracker.app-main-58:/drawable/bg_chip_outline.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_fragment_progress.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/fragment_progress.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/xml_backup_rules.xml.flat",
+        "source": "com.ecotracker.app-main-58:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_fragment_habits.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/fragment_habits.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/navigation_nav_graph.xml.flat",
+        "source": "com.ecotracker.app-main-58:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.ecotracker.app-main-58:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_fragment_habit_detail.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/fragment_habit_detail.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_item_eco_tip.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/item_eco_tip.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_fragment_eco_tips.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/fragment_eco_tips.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/drawable_bg_chip.xml.flat",
+        "source": "com.ecotracker.app-main-58:/drawable/bg_chip.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.ecotracker.app-main-58:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_item_habit.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/item_habit.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.ecotracker.app-main-58:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_fragment_add_habit.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/fragment_add_habit.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/layout_activity_main.xml.flat",
+        "source": "com.ecotracker.app-main-58:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ecotracker.app-merged_res-56:/xml_data_extraction_rules.xml.flat",
+        "source": "com.ecotracker.app-main-58:/xml/data_extraction_rules.xml"
+    }
+]

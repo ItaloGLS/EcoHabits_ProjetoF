@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_habits">
+
+    <fragment
+        android:id="@+id/nav_habits"
+        android:name="com.ecotracker.app.ui.fragments.HabitsFragment"
+        android:label="@string/nav_habits"
+        tools:layout="@layout/fragment_habits">
+        
+        <action
+            android:id="@+id/action_habits_to_add_habit"
+            app:destination="@id/nav_add_habit" />
+            
+        <action
+            android:id="@+id/action_habits_to_habit_detail"
+            app:destination="@id/nav_habit_detail" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_tips"
+        android:name="com.ecotracker.app.ui.fragments.EcoTipsFragment"
+        android:label="@string/nav_tips"
+        tools:layout="@layout/fragment_eco_tips" />
+
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.ecotracker.app.ui.fragments.ProgressFragment"
+        android:label="@string/nav_progress"
+        tools:layout="@layout/fragment_progress" />
+        
+    <fragment
+        android:id="@+id/nav_add_habit"
+        android:name="com.ecotracker.app.ui.fragments.AddHabitFragment"
+        android:label="@string/add_habit"
+        tools:layout="@layout/fragment_add_habit" />
+        
+    <fragment
+        android:id="@+id/nav_habit_detail"
+        android:name="com.ecotracker.app.ui.fragments.HabitDetailFragment"
+        android:label="Detalhes do Hábito"
+        tools:layout="@layout/fragment_habit_detail">
+        
+        <argument
+            android:name="habitId"
+            app:argType="long"
+            android:defaultValue="0L" />
+    </fragment>
+
+</navigation>

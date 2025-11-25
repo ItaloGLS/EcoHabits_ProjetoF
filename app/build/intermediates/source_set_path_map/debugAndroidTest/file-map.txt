@@ -1,0 +1,6 @@
+com.ecotracker.app.test.app-jetified-annotation-experimental-1.3.0-0 /home/docente/.gradle/caches/transforms-3/0e3e6b8de7d950a321b942b6f8f8f328/transformed/jetified-annotation-experimental-1.3.0/res
+com.ecotracker.app.test.app-jetified-core-1.5.0-1 /home/docente/.gradle/caches/transforms-3/a4585ec12e7930772734e89aa89c924d/transformed/jetified-core-1.5.0/res
+com.ecotracker.app.test.app-androidTest-2 /home/docente/CascadeProjects/EcoTracker/app/build/generated/res/resValues/androidTest/debug
+com.ecotracker.app.test.app-mergeDebugAndroidTestResources-3 /home/docente/CascadeProjects/EcoTracker/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.ecotracker.app.test.app-mergeDebugAndroidTestResources-4 /home/docente/CascadeProjects/EcoTracker/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.ecotracker.app.test.app-merged_res-5 /home/docente/CascadeProjects/EcoTracker/app/build/intermediates/merged_res/debugAndroidTest
