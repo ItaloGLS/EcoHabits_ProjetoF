@@ -5,6 +5,10 @@ plugins {
     id("kotlin-kapt")
 }
 
+val lifecycleVersion = "2.7.0"
+val navigationVersion = "2.7.5"
+val roomVersion = "2.6.1"
+
 android {
     namespace = "com.ecotracker.app"
     compileSdk = 34
